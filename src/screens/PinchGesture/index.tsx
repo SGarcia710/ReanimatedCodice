@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import {
   PinchGestureHandler,
   PinchGestureHandlerGestureEvent,
@@ -11,9 +11,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-interface PinchGestureScreenProps {}
-
-const PinchGestureScreen = (props: PinchGestureScreenProps) => {
+const PinchGestureScreen = () => {
   const scale = useSharedValue(1);
 
   const onPinchGestureEvent = useAnimatedGestureHandler<

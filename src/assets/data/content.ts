@@ -11,7 +11,7 @@ export const CONTENT = [
     link: 'PanGesture',
     description:
       'Ejemplo practico del Pan Gesture para hacer Drag de una imagen/elemento',
-    isCompleted: false,
+    isCompleted: true,
   },
   {
     name: 'Color Interpolation',
@@ -20,15 +20,15 @@ export const CONTENT = [
     isCompleted: false,
   },
   {
-    name: 'Slider',
-    link: 'Slider',
+    name: 'Merge Gestures',
+    link: 'MergeGestures',
     description: 'Pendiente...',
     isCompleted: false,
   },
   {
-    name: 'TikTok',
-    link: 'TikTok Disc',
-    description: 'Pendiente...',
-    isCompleted: false,
+    name: 'TikTok Disk',
+    link: 'TikTokDisk',
+    description: 'Ejemplo básico de una animacion de rotacion',
+    isCompleted: true,
   },
 ];
