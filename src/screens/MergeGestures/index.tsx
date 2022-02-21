@@ -8,7 +8,6 @@ import {
 } from 'react-native-gesture-handler';
 import Animated, {
   useAnimatedGestureHandler,
-  useAnimatedRef,
   useAnimatedStyle,
   useSharedValue,
 } from 'react-native-reanimated';

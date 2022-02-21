@@ -52,7 +52,7 @@ const HomeScreen = (props: HomeScreenProps) => {
         />
       </View>
 
-      <ScrollView style={styles.body}>
+      <ScrollView showsVerticalScrollIndicator={false} style={styles.body}>
         <Text style={styles.title}>
           Contenido{' '}
           <Text
